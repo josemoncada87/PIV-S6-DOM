@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 380px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.casilla{
+    background-color: burlywood;
+    width: 120px;
+    height: 120px;    
+    text-align: center;
+    line-height: 120px;
+    font-size: 48px;
+}

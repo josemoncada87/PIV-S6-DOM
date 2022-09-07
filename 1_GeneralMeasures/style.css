@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bloque{
+    min-height: 20vh;
+    min-width: 320px;
+}
+
+#c1{
+    background-color: aqua;
+}
+#c2{
+    background-color: aquamarine;
+}
+#c3{
+    background-color: burlywood;
+}
+#c4{
+    background-color: darkgoldenrod;
+}
+#c5{
+    background-color: darkkhaki;
+}
+
+@media (min-width: 500px) {
+    #c1{
+        background-color: black;
+    }
+    .bloque{
+        min-width: 500px;
+    }    
+}
